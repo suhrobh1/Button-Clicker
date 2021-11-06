@@ -1,0 +1,149 @@
+.pluralSection{
+  display:flex;
+ 
+}
+*{
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding:0;
+}
+
+#mainContainer{
+  margin: 0 auto;
+  width: 600px;
+  height: 395px; 
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+#topSection, #bottomSection{
+  display:flex;
+  justify-content: space-between;
+}
+
+#topSection{
+  background-color: grey;
+  align-items: center;
+  height: 45px;
+  padding: 0px 15px 0px 15px;
+}
+
+#searchDiv{
+  display:flex;
+  background-color: white;
+  height:50%;
+  width: 40%;
+  padding: 0px;
+}
+
+#searchBar{
+  height:100%;
+  width: 100%;
+}
+
+#logButton{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  height: 40%;
+  padding: 3px 9px;
+  box-shadow: 2px 2px black;
+}
+
+#bottomSection{
+  height:84%;
+  margin-top:3%;
+}
+
+#leftColumn, #rightColumn{
+  display:flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+#leftColumn{
+  height:100%;
+  width: 70%;
+}
+
+.leftColumnMainContainers{
+  border: 3px solid grey; 
+  display:flex;
+  align-items: center;
+  height: 39%;
+  width:90%;
+  padding: 10px; /*need adjustment?*/
+}
+
+.ninjaPluralButtonContainer{
+  height:95%;
+  width:25%;
+  display:flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ninjaSection{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 68%;
+  width:85%;
+  padding-bottom: 3px;
+}
+
+.pluralSection{
+  width:95%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.likes{
+  background-color: yellow;
+  padding: 3px 9px;
+  box-shadow: 2px 2px black;
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 0.9rem ;
+}
+
+.containerRight{
+  height:40%;
+  width:65%;
+  padding:  0% 5% 0% 15%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#rightColumn{
+  display:flex;
+  justify-content: space-around;
+  height: 27%;
+  width: 25%;
+  padding: 0px 11px 11px 11px;
+  border: 3px solid grey; 
+}
+
+#addDefinition{
+  display:flex;
+  justify-content: center;
+  
+}
+#definitionParagraph{
+  font-size: 1.2rem;
+
+}
+#addDefinitionButton{
+  background-color: rgb(13, 155, 13);
+  padding: 3px 9px;
+  box-shadow: 2px 2px black;
+  width: 80rem;
+  height: 2rem;
+  font-size: 1rem ;
+}
