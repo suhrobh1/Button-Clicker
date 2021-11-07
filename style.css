@@ -2,6 +2,7 @@
   display:flex;
  
 }
+
 *{
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -12,14 +13,18 @@
   margin: 0 auto;
   width: 600px;
   height: 395px; 
-  display: flex;
-  flex-flow: column;
+}
+
+#mainContainer,#topSection, #bottomSection, #leftColumn, #rightColumn, .ninjaPluralButtonContainer, .ninjaSection, .pluralSection {
   justify-content: space-between;
 }
 
-#topSection, #bottomSection{
-  display:flex;
-  justify-content: space-between;
+#mainContainer, #leftColumn, #rightColumn, .ninjaPluralButtonContainer, .ninjaSection {
+  flex-flow: column;
+}
+
+#mainContainer, #topSection, #bottomSection, #leftColumn, #rightColumn, .ninjaPluralButtonContainer, .ninjaSection, .pluralSection {
+  display: flex;
 }
 
 #topSection{
@@ -56,12 +61,6 @@
   margin-top:3%;
 }
 
-#leftColumn, #rightColumn{
-  display:flex;
-  flex-flow: column;
-  justify-content: space-between;
-}
-
 #leftColumn{
   height:100%;
   width: 70%;
@@ -73,22 +72,16 @@
   align-items: center;
   height: 39%;
   width:90%;
-  padding: 10px; /*need adjustment?*/
+  padding: 10px;  
 }
 
 .ninjaPluralButtonContainer{
   height:95%;
   width:25%;
-  display:flex;
-  flex-flow: column;
-  justify-content: space-between;
   align-items: center;
 }
 
 .ninjaSection{
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
   align-items: center;
   height: 68%;
   width:85%;
@@ -97,9 +90,6 @@
 
 .pluralSection{
   width:95%;
-  display: flex;
-  justify-content: space-between;
-
 }
 
 .likes{
@@ -118,7 +108,6 @@
   display: flex;
   justify-content:flex-start;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 #rightColumn{

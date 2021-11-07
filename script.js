@@ -9,5 +9,5 @@ function removesDefinition(element){
 function likes(id){
     var likesTally = document.getElementById(id);
     window.alert("Ninja was liked");
-    likesTally.innerHTML++;
+    // likesTally.innerHTML++;
 }
